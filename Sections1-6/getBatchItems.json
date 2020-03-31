@@ -1,0 +1,18 @@
+{
+    "udemy_ddb_notes_cliTest": {
+        "Keys": [
+            {
+                "user_id": {"S": "A"},
+                "timestamp": {"N": "10"}
+            },
+            {
+                "user_id": {"S": "B"},
+                "timestamp": {"N": "2"}
+            },
+            {
+                "user_id": {"S": "C"},
+                "timestamp": {"N": "3"}
+            }
+        ]
+    }
+}
