@@ -19,7 +19,7 @@
 #### Notes
 - In section 6, using the API, data types had to be specified (string, number, etc.).  But numbers had to be passed as strings.  When using the sdk, you do not have to declare types, but numbers should be numbers, and so on.
 - Conditional writes:
-  - are idempotent, meaning that if we make the same condtional request multiple times, only the first successful one will have any effect
+  - are idempotent, meaning that if we make the same conditional request multiple times, only the first successful one will have any effect
   - return ConditionalCheckFailedException if condition fails
   - do not return the consumed capacity
   - but they do consume WCUs.
