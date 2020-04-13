@@ -1,7 +1,7 @@
 # AWS DynamoDB - The Complete Guide 
 ## SECTION 8:  DynamoDB Architecture
 
-**8.49** and **8.54**:  Not going to lie -- there is a lot of math involved in calculating partitions and indexes (WCUs, RCUs, GBs, etc.).  I did not try hard to understand most of it.  If I ever pursue the IAC/DevOps side of things I will pay more attention, but this is a lot for an intro course, and my weak foundation in math and computer science would need shoring up in any case.  
+**8.49**, **8.54**, and **8.58**:  Not going to lie -- there is a lot of math involved in calculating partitions and indexes (WCUs, RCUs, GBs, etc.).  I did not retain much in these sections, but I know what questions to research when the need arises.  
 
 ### Keys & Partitions (50-51)
 
@@ -179,7 +179,7 @@ But filtering occurs after the initial query.  So this approach uses a lot of re
 > Table 11
 
 |customer (pk)|country_state_city (sk)|
-| :------- | :------- | :------- | :------- |
+| :------- | :------- |
 |John|US\|CA\|San Francisco|
 |Tom|US\|CA\|San Diego|
 |John|US\|CA\|San Diego|
