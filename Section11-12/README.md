@@ -10,6 +10,7 @@
 -   GSI: note_id-index
 -   LSI: user_id-cat-index
 -   LSI: user_id-title-index
+
     ![LSI](../assets/ddb-global-secondary-index.png)
     ![GSI](../assets/ddb-local-secondary-index.png)
 
@@ -37,3 +38,5 @@ For 12.70-71, the challenge was to trigger auto-scaling by writing code to initi
 -   I adapted the callback solution from [this github repo](https://gist.github.com/andrhamm/dd5bcb41cb32ed1818259b88c7a48d7e).
 -   My solution to pagination is in [Section11-12/bulkReads.js](../Section11-12/bulkReads.js)
 -   It can be tested in both regions by commenting/uncommenting the desired instantiation.
+
+**NOTE**: You will want to have the 'expires' and 'timestamp' attributes created as described in this lecture. Don't skip or change the faker syntax if you want to easily follow along on the following exercises.

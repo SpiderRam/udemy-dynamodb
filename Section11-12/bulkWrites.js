@@ -1,4 +1,4 @@
-const AWS = require("aws-sdk");
+const AWS = require('aws-sdk');
 
 const faker = require('faker');
 const moment = require('moment');
@@ -8,7 +8,7 @@ const docClient_us = new AWS.DynamoDB.DocumentClient({ region: 'us-east-1' });
 setInterval(() => {
     let params = {
         TableName: 'global_udemy_notes',
-        Item: {}
+        Item: {},
     };
     generateNotesItem((item) => {
         params.Item = item;
@@ -30,7 +30,7 @@ function generateNotesItem(callback) {
         title: faker.company.catchPhrase(),
         content: faker.hacker.phrase(),
         note_id: faker.random.uuid(),
-        user_name: faker.internet.userName,
-        expires: moment().unix() + 600
+        user_name: faker.internet.userName(),
+        expires: moment().unix() + 600, // this is important for section 13
     });
 }
