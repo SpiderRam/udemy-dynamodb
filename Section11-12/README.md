@@ -2,6 +2,8 @@
 
 ## SECTION 11-12: Cross-Region Replication Using Global Tables and Auto-Scaling
 
+> Note! Perhaps due to changes since the course was created, or just an oversight, I began to rack up charges from Cloudwatch in Frankfurt. Go to Cloudwatch > Alarms and delete all existing alarms as soon as you complete the section.
+
 ### Creating the Global Table (11.65)
 
 1. Create a new table
