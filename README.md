@@ -21,4 +21,4 @@ As of my experience with it (April 2020), it is outdated enough that I would not
 | Very clear about what has to be done at creation vs what you can change later on | Could have used a lot more demonstration of how indexes work in different situations, and how to structure data/indices depending on what kind of app you are building                                                                                        |
 |                                                                                  | The final project was basically a wash, especially parts 2 & 3. Too much time spent setting up Angular 5, building mobile app with Ionic, setting up Google Cloud Platform and Firebase, and so on. Needs to keep the focus on Dynamo and minimize the noise. |
 
-![certificate](https://www.udemy.com/certificate/UC-886ba4fc-244e-4807-9754-0bc41af41ddd/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email)
+![certificate](https://udemy-certificate.s3.amazonaws.com/image/UC-886ba4fc-244e-4807-9754-0bc41af41ddd.jpg)
